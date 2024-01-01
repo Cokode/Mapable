@@ -27,7 +27,7 @@ public class BaseballTeam {
     System.out.println(teamMembers);
   }
 
-  public int ranking() {
+  public int ranking()git  {
     return (totalLossess * 2) + totalTies + 1;
   }
 
