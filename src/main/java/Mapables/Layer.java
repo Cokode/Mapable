@@ -4,19 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Layer <T> {
-  List<T> mappable = new ArrayList<>();
+  List<T> layers = new ArrayList<>();
 
   public Layer (String name) {}
 
-  public void add(T t) {
-    if(!mappable.contains(t)) {
-      mappable.add(t);
+  public void addPark(T t) {
+    if(!layers.contains(t)) {
+      layers.add(t);
     }
   }
 
-
   public void renderLayer() {
-    mappable.forEach(System.out::println);
+    for (T l : layers) {
+    }
+
+
   }
 
 
