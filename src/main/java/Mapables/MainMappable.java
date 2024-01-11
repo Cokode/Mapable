@@ -23,5 +23,7 @@ public class MainMappable {
 
     park.st("393839, doedkjd, yes, uieehd, 90389309, djdid");
 
+    var newName = new Park<>("Standing");
+
   }
 }

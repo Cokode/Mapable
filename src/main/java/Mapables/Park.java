@@ -30,13 +30,12 @@ public class Park<T extends  Point> {
 
     System.out.println(Arrays.toString(mywords));
 
-    System.out.println(this + " Now too");
+    System.out.println(this.getClass().getSimpleName() + " Now too");
   }
 
   @Override
   public String toString() {
     return name;
   }
-
 
 }
